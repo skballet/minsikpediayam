@@ -1,0 +1,39 @@
+<style>
+  body {margin: 10px;}
+  a { text-decoration: none;
+    color:black;}
+  h1 {
+    font - size:50px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    margin: 0;
+    padding: 10px;
+  }
+  #index ol {
+    width:115px;
+    margin : 0;
+    padding: 20px;
+    }
+    #index ol li{
+      height: 30px;}
+      /*
+  a: hover{
+        color: #ffffff;
+    }
+    */
+  #grid{
+    display: grid;
+    grid-template-columns: 170px 1fr;}
+  #grid ol {  padding-left: 30px;}
+  #article{
+    border-left:2px solid gray;
+    margin: 0;
+    padding: 15px;
+  }
+
+  @media(max-width:750px){
+  #grid{
+    display: block;}
+    #article {border-left: none;}
+  }
+</style>
